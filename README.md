@@ -1,11 +1,5 @@
 # MJSearchBar -- 接入说明文档 V1.0.0
-## 1. SDK继承
-
-```
-implementation 'com.mjdy.ad:searchbar:1.0.0'
-```
-
-## 2. 接入代码
+## 1. SDK集成
 
 在根目录的 **build.gradle** 里加入下面的maven库
 
@@ -18,6 +12,13 @@ allprojects {
    }
 ```
 
+在 app/build.gradle 的dependencies里添加引用
+
+```
+implementation 'com.mjdy.ad:searchbar:1.0.0'
+```
+
+## 2. 接入代码
 
 ### 2.1 初始化
 在application的onCreate里面加入
